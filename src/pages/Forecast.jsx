@@ -34,7 +34,7 @@ export default function Forecast({ city }) {
                             Prakiraan Cuaca 5 Hari
                         </p>
 
-                        <p className="text-white/50 text-sm">
+                        <p className="text-white/50 text-[25px]">
                             {city}
                         </p>
                     </div>
