@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
 import Home from '../pages/Home'
 import Forecast from '../pages/Forecast'
 import { getWeatherByCoords } from '../utils/weatherApi'
@@ -30,6 +29,7 @@ export default function Router() {
     )
   }, [])
 
+  // loading untuk mendapatkan lokasi pengguna/user
   if (!city) {
   return (
     <div className="min-h-screen flex items-center justify-center bg-black">
@@ -59,6 +59,7 @@ export default function Router() {
           path="/"
           element={<Home city={city} setCity={setCity} />}
         />
+      
 
         <Route
           path="/forecast"

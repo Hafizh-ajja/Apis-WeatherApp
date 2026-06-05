@@ -103,7 +103,7 @@ export default function Home({ city, setCity }) {
                             {/* Detail Cuaca */}
                             <div className="grid grid-cols-3 gap-4 mt-8">
                                 <div className="bg-white/10 rounded-2xl p-4 text-center">
-                                    <p className="text-xs text-white/60 uppercase">
+                                    <p className="text-xs md:text-lg text-white/60 uppercase">
                                         Terasa
                                     </p>
 
@@ -112,9 +112,9 @@ export default function Home({ city, setCity }) {
                                     </p>
                                 </div>
 
-                                <div className="bg-white/10 rounded-2xl p-4 text-center">
-                                    <p className="text-xs text-white/60 uppercase">
-                                        Kelembaban
+                                <div className="bg-white/10 rounded-2xl p-4 text-center items-center">
+                                    <p className="text-xs md:text-lg text-white/60 uppercase">
+                                        lembab
                                     </p>
 
                                     <p className="text-lg font-semibold mt-2">
@@ -123,7 +123,7 @@ export default function Home({ city, setCity }) {
                                 </div>
 
                                 <div className="bg-white/10 rounded-2xl p-4 text-center">
-                                    <p className="text-xs text-white/60 uppercase">
+                                    <p className="text-xs md:text-lg text-white/60 uppercase">
                                         Angin
                                     </p>
 
