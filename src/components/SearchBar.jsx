@@ -20,7 +20,7 @@ export default function SearchBar({ onSearch }) {
         type="submit"
         className="px-4 py-2 rounded-xl bg-white/20 hover:bg-white/30 text-white transition"
       >
-        Cari
+        Search
       </button>
     </form>
   )
