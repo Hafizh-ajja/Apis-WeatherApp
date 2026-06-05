@@ -1,6 +1,6 @@
 import useWeather from '../utils/useWeather';
 import Navbar from '../components/Navbar';
-import bg from '../assets/bg.jpeg';
+import bg from '../assets/bg2.jpeg';
 
 export default function Forecast({ city }) {
     const { forecast, loading, error } = useWeather(city);

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import SearchBar from '../components/SearchBar';
 import useWeather from '../utils/useWeather';
 import Navbar from '../components/Navbar';
-import bg from '../assets/bg.jpeg';
+import bg from '../assets/bg2.jpeg';
 
 export default function Home({ city, setCity }) {
     const { weather, forecast, loading, error } = useWeather(city);
