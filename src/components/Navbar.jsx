@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <nav className="flex items-center justify-between px-15 py-4 bg-white/10 backdrop-blur-md border-b border-white/10">
       <h1 className="text-white font-semibold text-lg tracking-wide">
-        WeatherPiss
+        🌤️ WeatherPiss
       </h1>
       <div className="flex gap-2">
         <Link to="/" className={linkClass('/')}>
