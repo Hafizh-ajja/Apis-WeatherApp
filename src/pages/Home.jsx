@@ -10,7 +10,8 @@ export default function Home({ city, setCity }) {
     const [time, setTime] = useState(new Date());
 
     const hourlyForecast = forecast?.list?.slice(0, 8);
-
+    
+    // menangani efek samping (side effects) di luar siklus render komponen utama
     useEffect(() => {
         const interval = setInterval(() => {
             setTime(new Date());
