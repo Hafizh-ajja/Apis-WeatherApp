@@ -105,7 +105,7 @@ export default function Home({ city, setCity }) {
                             <div className="grid grid-cols-3 gap-4 mt-8">
                                 <div className="bg-white/10 rounded-2xl p-4 text-center">
                                     <p className="text-xs md:text-lg text-white/60 uppercase">
-                                        Terasa
+                                        Suhu
                                     </p>
 
                                     <p className="text-lg font-semibold mt-2">
