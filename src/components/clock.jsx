@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 function Clock() {
   const [time, setTime] = useState(new Date());
 
+
+  // menyimpan dan mengelola data
   useEffect(() => {
     const interval = setInterval(() => {
       setTime(new Date());
